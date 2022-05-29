@@ -1,6 +1,10 @@
 # Recipe-Mama
 Project Capstone CPG-59
 
+# Note
+* Pengerjaan Project Senin - Jumat (13.30 - 16.30 WIB)
+* 
+
 # Langkah-Langkah Kolaborasi dengan Team
 
 Berikut tahapan proses yang akan kita lakukan dalam studi kasus berkolaborasi dengan tim:
