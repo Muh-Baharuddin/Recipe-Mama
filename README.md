@@ -1,2 +1,5 @@
 # Recipe-Mama
-Project Capstone CP59
+Project Capstone CPG-59
+
+# Langkah-Langkah Kolaborasi dengan Team
+1. 
