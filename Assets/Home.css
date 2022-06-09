@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.recipe {
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    background-color: #E8EAE6;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h2 {
+    text-align: center;
+    font-weight:bold ;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #06283D;
+    text-align: center;
+}
+
+h5{
+    color: #FF5F00;
+}
+
+p {
+    color: #141E27;
+}
+
+.pfooter{
+    color: #F7F7F7;
+}
+
+a{
+    font-weight: bold;
+}
+

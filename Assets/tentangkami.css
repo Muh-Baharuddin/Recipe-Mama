@@ -1,0 +1,16 @@
+.ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border:0;
+}
+
+.team{
+    padding: 150px ;
+}
+
+h2 {
+    text-align: center;
+    font-weight:bold ;
+}
+a{
+    font-weight: bold;
+}
