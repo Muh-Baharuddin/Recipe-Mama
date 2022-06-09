@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    background-color: rgb(97, 97, 97);
+}
+
+.navbar {
+    background-color: #0b4f7a;
+}
+
+.background {
+    margin: 0;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: #06283D;
+}
+
+.jumbotron {
+    box-sizing: border-box;
+    padding: 25px 20px;
+    width: 75%;
+    max-width: 700px;
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0px 10px 50px 0 rgb(31 38 135 / 20%);
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255 / 15%);
+    text-align: center;
+}
+
+.best {
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    background-color: #F9EBC8;
+    text-align: center;
+    font-weight: bold;
+    color: #F7F7F7;
+}
+
+h2 {
+    text-align: center;
+    font-weight:bold ;
+    color: #F7F7F7;
+}
+
+h1 {
+    text-align: center;
+    color: #F7F7F7;
+}
+
+aside {
+    padding: 100px;
+    background-color: #f5f5f5;
+    color: #F7F7F7;
+}
+
+.badan
+{
+    background-color: #f7f7f7;
+    padding: 13px 0;
+}
+
+.peding-100
+{
+    padding: 120px;
+}
+
+.peding-30
+{
+    padding: 30px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #0b4f7a;
+    text-align: center;
+}
+
+h5{
+    color: #FF5F00;
+}
+
+p {
+    color: #f7f7f7;
+}
+
+.pfooter{
+    color: #F7F7F7;
+}
+
+a{
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 5px;
+    border: 0;
+}
+
+.team{
+    padding: 150px ;
+}
+
+.ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border:0;
+}
