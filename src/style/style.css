@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7F7F7;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+button.clear{
+    margin: 40px 0;
+}
+
+aside {
+    padding: 100px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.imageNav{
+    width: 50px;
+    height: 50px;
+}
+
+
+.ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border: 0;
+}
+
+#carouselExampleIndicators {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3em;
+  }
+
+  a{
+    font-weight: bold;
+}
+  
+input[type=search]{
+    font-size: 14px;
+    padding: 12px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: darkblue; */
+    width: 100%;
+}
+input[type=search]:focus{
+    outline: none;
+}
+form button{
+    background-color: #fff;
+    border: none;
+    margin-left: 5px;
+}
+form button:hover{
+    cursor: pointer;
+}
+figure{
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 16px;
+}
+figure img{
+    border-radius: 16px 16px 0 0;
+}
+figcaption{
+    position: relative;
+    margin-top: -20px;
+    padding: 12px;
+    padding-top: 20px;
+    
+    border-radius: 16px 16px 16px 16px;
+    background-color: white;
+}
+
+.badan
+{
+    background-color: rgb(215, 210, 210);
+    padding: 13px 0;
+}
+
+.peding-100
+{
+    padding: 120px;
+}
+
+.peding-30
+{
+    padding: 30px;
+}
+
+footer {
+    padding: 10px 20px 2px;
+    color: white;
+    background-color: #c21414;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  footer a {
+    padding-top: 15px;
+    color: white;
+    float: right;
+    text-align: center;
+  }
+
+@media screen and (max-width: 1024px) {
+    img{
+        width: 100%;
+    }
+
+    .card{
+        width: 95%;
+    }
+
+    .card-body{
+        width: 95%;
+    }
+
+    img .img-fluid{
+        width: 100%;
+    }
+
+    footer a {
+        float: none;
+      }
+
+}
