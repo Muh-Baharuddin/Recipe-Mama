@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F7F7F7;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.navtext {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #BFFFF0;
+}
+
+.recipe {
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    background-color: #E8EAE6;
+    text-align: center;
+    font-weight: bold;
+}
+
+.recipe2 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    background-color: #F9F2ED;
+    text-align: center;
+    font-weight: bold;
+}
+
+.background {
+    margin: 0;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url("https://cdn.pixabay.com/photo/2021/07/07/05/57/rendang-6393323_1280.jpg");
+}
+
+
+
+.jumbotron {
+    box-sizing: border-box;
+    padding: 25px 20px;
+    width: 75%;
+    max-width: 700px;
+    background: rgba(109, 109, 109, 0.1);
+    box-shadow: 0px 10px 50px 0 rgb(31 38 135 / 20%);
+    border-radius: 10px;
+    border: 1px solid rgb(255 255 255 / 15%);
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.backgroundresep {
+    margin: 0;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.resep{
+    text-align: center;
+    padding-top: 15px;
+}
+
+button.clear{
+    margin: 40px 0;
+}
+
+aside {
+    padding: 100px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.team2 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 50px;
+    background-color: #F9F2ED;
+    text-align: center;
+    font-weight: bold;
+}
+
+.imageNav{
+    width: 50px;
+    height: 50px;
+}
+
+
+.ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border: 0;
+}
+
+.contact{
+    padding: 50px;
+}
+  
+input[type=search]{
+    font-size: 14px;
+    padding: 12px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: darkblue; */
+    width: 100%;
+}
+input[type=search]:focus{
+    outline: none;
+}
+form button{
+    background-color: #fff;
+    border: none;
+    margin-left: 5px;
+}
+form button:hover{
+    cursor: pointer;
+}
+figure{
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 16px;
+}
+figure img{
+    border-radius: 16px 16px 0 0;
+}
+figcaption{
+    position: relative;
+    margin-top: -20px;
+    padding: 12px;
+    padding-top: 20px;
+    
+    border-radius: 16px 16px 16px 16px;
+    background-color: white;
+}
+
+.badan
+{
+    background-color: #51557E;
+}
+
+
+
+footer {
+    padding: 10px 20px 2px;
+    color: black;
+    background-color: #9DD6DF;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  footer a {
+    padding-top: 15px;
+    color: black;
+    float: right;
+    text-align: center;
+  }
+
+@media screen and (max-width: 1024px) {
+    img{
+        width: 100%;
+    }
+
+    .card{
+        width: 95%;
+    }
+
+    .card-body{
+        width: 95%;
+    }
+
+    img .img-fluid{
+        width: 100%;
+    }
+
+    footer a {
+        float: none;
+      }
+
+}
+
+@media screen and (max-width: 513px) {
+    .jumbotron {
+        padding: 10px;
+    }
+
+    .background {
+    height: 250px;
+    background-repeat:repeat;
+    background-size:contain;
+    background-position:center;
+    }
+
+}
